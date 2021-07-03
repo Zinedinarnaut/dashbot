@@ -1,0 +1,39 @@
+{
+  "name": "dashbot",
+  "version": "1.0.0",
+  "description": "A useful bot for your discord server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "z_t0ht#0001",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.3",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "got": "^11.8.2",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^5.12.3",
+    "node-os-utils": "^1.3.5",
+    "pretty-ms": "^7.0.1",
+    "quick.db": "^7.1.3",
+    "server": "^1.0.32",
+    "speedtest-net": "^1.6.2",
+    "uuidv4": "^6.2.6",
+    "node-superfetch": "^0.1.10",
+    "request-promise": "^4.2.6",
+    "cheerio": "^1.0.0-rc.10",
+    "request": "^2.88.2",
+    "node-fetch": "^2.6.1",
+    "danbot-hosting": "^0.1.6",
+    "disbotlist": "^1.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

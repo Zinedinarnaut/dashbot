@@ -1,0 +1,8 @@
+{
+  "name": "dashbot",
+  "language": "javascript",
+  "manager": "npm",
+  "token": "ODI4NTIzNTA4ODMzMDU4ODY3.YGq0pQ.BDs8-yex3FB8Jz-xB6xNfo4zf94",
+  "prefix": "DB!",
+  "subreddit": ["subreddit 1"]
+}
