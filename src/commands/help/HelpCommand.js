@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 const BaseCommand = require('../../utils/structures/BaseCommand');
 
-module.exports = class TestCommand extends BaseCommand {
+module.exports = class HelpCommand extends BaseCommand {
   constructor() {
     super('help', 'help', ["yardım", "ayuda", "helpen", "助けて", "tasukete"]);
   }

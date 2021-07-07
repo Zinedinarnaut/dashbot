@@ -3,7 +3,7 @@ const BaseCommand = require('../../utils/structures/BaseCommand');
 const mongoose = require('mongoose')
 fetch = require('node-fetch');
 
-module.exports = class TestCommand extends BaseCommand {
+module.exports = class GithubCommand extends BaseCommand {
   constructor() {
     super('github', 'help', ['git']);
   }

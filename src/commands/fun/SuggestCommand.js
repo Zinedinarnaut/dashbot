@@ -29,7 +29,7 @@ module.exports = class SuggestCommand extends BaseCommand {
   
    if (message.guild.id === "829631176367931413") return message.channel.send('Suggestion Added!')
         const suggestionadded = new Discord.MessageEmbed()
-            .setColor("#fba41c")
+            .setColor("RANDOM")
             .setTitle('Suggested!')
             .setDescription("Your suggestion got added in the support server")
             

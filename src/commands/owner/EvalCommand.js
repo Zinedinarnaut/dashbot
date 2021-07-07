@@ -1,7 +1,7 @@
 const BaseCommand = require('../../utils/structures/BaseCommand');
 const Discord = require('discord.js')
 
-module.exports = class KickCommand extends BaseCommand {
+module.exports = class EvalCommand extends BaseCommand {
   constructor() {
     super('eval', 'owner', ['eval']);
   }

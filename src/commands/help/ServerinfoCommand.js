@@ -17,7 +17,7 @@ module.exports = class ServerinfoCommand extends BaseCommand {
        .addField('Member Count', `${message.guild.memberCount}`, true)
        .addField('Server Region', message.guild.region)
        .addField('Created At', message.guild.createdAt.toLocaleString(), true)
-       .addField("Verification Level: ", `${verificationLevels[message.guild.verificationLevel]}`)
+       .addField("Verification Level: ", `${verificationLevels[message.guild.verificationLevel]}`, true)
        .addField('Roles', role, true)
        message.channel.send(embed) 
   }

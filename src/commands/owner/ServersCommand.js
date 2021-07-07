@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 const BaseCommand = require('../../utils/structures/BaseCommand');
 
-module.exports = class TestCommand extends BaseCommand {
+module.exports = class ServersCommand extends BaseCommand {
   constructor() {
     super('servers', 'owner', ['serv']);
   }

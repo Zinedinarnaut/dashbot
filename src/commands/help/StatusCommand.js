@@ -5,7 +5,7 @@ const osu = require('node-os-utils');
 const os = require("os");
 const cpu = osu.cpu
 
-module.exports = class TestCommand extends BaseCommand {
+module.exports = class StatusCommand extends BaseCommand {
   constructor() {
     super('status', 'help', ['stats']);
   }
