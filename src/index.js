@@ -14,7 +14,7 @@ client.commands = new Discord.Collection()
 // var section
 var DanBotHosting = require("danbot-hosting");
 
-mongoose.connect( 'mongodb+srv://zinedin:arnaut1516@cluster0.zkt6z.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
+mongoose.connect( '', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
@@ -27,17 +27,6 @@ mongoose.connect( 'mongodb+srv://zinedin:arnaut1516@cluster0.zkt6z.mongodb.net/m
   await registerEvents(client, '../events');
   await client.login(config.token);
 })();
-
-client.on("ready", async () => {
-  const API = new DanBotHosting.Client("danbot-loe07r", client);
- 
-  // Start posting
-  let initalPost = await API.autopost();
- 
-  if (initalPost) {
-    console.error(initalPost); // console the error
-  }
-});
 
 client.on("ready", async () => {
   dbl.serverCount();
