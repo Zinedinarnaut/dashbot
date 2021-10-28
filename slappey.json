@@ -1,7 +1,7 @@
 {
-  "name": "dashbot",
+  "name": "your name here",
   "language": "javascript",
   "manager": "npm",
-  "token": "ODI4NTIzNTA4ODMzMDU4ODY3.YGq0pQ.Z7odBydOU5bXEmQ5vg4xk1EW1-A",
-  "prefix": "DB!"
+  "token": "your bot token",
+  "prefix": "your prefix here"
 }
